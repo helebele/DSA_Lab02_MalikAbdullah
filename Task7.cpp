@@ -36,5 +36,35 @@ int main() {
     for (int i : result3) cout << i << " ";
     cout << endl;
 
+
+    //Additional test cases for second commit
+
+    vector<int> arr4 = {7, 7, 7, 7, 7};
+    int key4 = 7;
+    vector<int> result4 = findIndices(arr4, key4);
+    cout << "Indices for key " << key4 << ": ";
+    for (int i : result4) cout << i << " ";
+    cout << endl;
+
+    vector<int> arr5 = {5, 2, 3, 4, 5};
+    int key5 = 5;
+    vector<int> result5 = findIndices(arr5, key5);
+    cout << "Indices for key " << key5 << ": ";
+    for (int i : result5) cout << i << " ";
+    cout << endl;
+
+    vector<int> arr6 = {1, 9, 3, 9, 5, 6, 7, 8, 9, 10};
+    int key6 = 9;
+    vector<int> result6 = findIndices(arr6, key6);
+    cout << "Indices for key " << key6 << ": ";
+    for (int i : result6) cout << i << " ";
+    cout << endl;
+
+    //Additional cases for second commit end.
+
+
+
+
+
     return 0;
 }

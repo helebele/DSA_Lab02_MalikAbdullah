@@ -38,7 +38,16 @@ int main() {
     cout << "Test 3: " << findSubstring("openai rocks", "gpt") << endl;  
 
     // Empty pattern
-    cout << "Test 4: " << findSubstring("abcde", "") << endl;            
+    cout << "Test 4: " << findSubstring("abcde", "") << endl;    
+    
+    // Additonal cases for second commit
+
+    cout << "Test 5: " << findSubstring("Hello how you be", "yo") << endl;  
+    cout << "Test 6: " << findSubstring("I am very fine", "very") << endl;  
+    cout << "Test 7: " << findSubstring("you look bodacious", "lo") << endl;  
+    cout << "Test 8: " << findSubstring("I see very well thank you", "s") << endl;  
+
+    // Additonal cases for second commit end
 
 
     return 0;
